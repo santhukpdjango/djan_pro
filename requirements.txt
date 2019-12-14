@@ -1,0 +1,4 @@
+django==2.27
+crispy_forms
+sqlparse
+pillow
