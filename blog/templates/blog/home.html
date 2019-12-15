@@ -1,6 +1,4 @@
 {% extends "blog/base.html" %}
-{% block content %}
-    {% for post in posts %}
        <article class="media content-section">
           <img class="rounded-circle account-img" src="{{ post.author.profile.image.url }}">
             <div class="media-body">
@@ -15,5 +13,3 @@
                <img class="img-thumbnail" src="{{ post.blog_image.url }}">
            </div>
        </article>
-    {% endfor %}
-{% endblock content %}
