@@ -3,3 +3,4 @@ django-crispy-forms
 sqlparse
 pillow
 whitenoise==5.0.1
+psycopg2
