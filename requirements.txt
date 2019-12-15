@@ -2,4 +2,4 @@ django==2.2.7
 django-crispy-forms
 sqlparse
 pillow
-whitenoise==4.1
+whitenoise==5.0.1
