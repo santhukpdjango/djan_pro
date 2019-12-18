@@ -25,7 +25,7 @@ SECRET_KEY = 'a@3x-2x&33wlo24!m$z4)6hdtoi6w_to=3w$%)$!3r57+#a+3a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djanpro.azurewebsites.net']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
