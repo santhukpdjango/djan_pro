@@ -25,7 +25,7 @@ SECRET_KEY = 'a@3x-2x&33wlo24!m$z4)6hdtoi6w_to=3w$%)$!3r57+#a+3a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djanpro.azurewebsites.net']
+ALLOWED_HOSTS = ['djanpro.azurewebsites.net','127.0.0.1']
 
 
 # Application definition
@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'djan_pro.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'mytest',
-        'USER': 'santhukp@mydjango',
-        'PASSWORD': 'Sonyw830i',
-        'HOST': 'mydjango.postgres.database.azure.com',
+        'NAME': 'mydjangodb',
+        'USER': 'santhukp@santhoshdemo',
+        'PASSWORD': 'Adithi@123$',
+        'HOST': 'santhoshdemo.postgres.database.azure.com',
         'PORT': '5432',
     }
 }
