@@ -9,8 +9,7 @@ class Profile(models.Model):
     def __str__(self):
         return f'{ self.user.username } Profile'
 
-<<<<<<< HEAD
-=======
+
     def save(self, *args, **kwargs):
         super().save(*args,**kwargs)
 
@@ -21,4 +20,4 @@ class Profile(models.Model):
             img.thumbnail(output_size)
             img.save(self.image.path)
 
->>>>>>> b9c8fd63ca06f8683425af4d50f3394b0b7d4728
+
