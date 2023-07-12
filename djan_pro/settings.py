@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['blogdjango.azurewebsites.net','127.0.0.1']
 
-
+#test for azure
 # Application definition
 
 INSTALLED_APPS = [
