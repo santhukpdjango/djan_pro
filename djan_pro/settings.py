@@ -25,7 +25,7 @@ SECRET_KEY = 'a@3x-2x&33wlo24!m$z4)6hdtoi6w_to=3w$%)$!3r57+#a+3a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['blogdjango.azurewebsites.net','127.0.0.1']
+ALLOWED_HOSTS = ['ecommerceturbo.azurewebsites.net','127.0.0.1']
 
 #test for azure
 # Application definition
