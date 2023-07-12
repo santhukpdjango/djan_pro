@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'EcommerceTurbo'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F53F1DB167104D2A86FB4828EFBEB859 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8A1756F0B72444DB93A80059569C6A5F }}
